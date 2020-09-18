@@ -1,1 +1,1 @@
-print("hola, tierra!")
+print("hola, tierro!")
