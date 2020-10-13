@@ -7,12 +7,12 @@ print("Ingrese su fecha de nacimiento")
 dia = int(input("Día: "))
 mes = int(input("Mes: "))
 anno = int(input("Año: "))
-if dia<t.tm_mday:
+if dia<=t.tm_mday:
     dia = 0
 else:
     dia = 1
-if mes+dia<t.tm_mon:
+if mes+dia<=t.tm_mon:
     mes = 0
 else :
     mes = 1
-print(t.tm_year-(anno+mes))
+print(t.tm_year-(mes+anno))
