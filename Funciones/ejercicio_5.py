@@ -7,5 +7,5 @@ def pal_inv(pal):
     print(pal_invertida)
 
 
-pal = input("Ingrese carácter: ")
+pal = input("Ingrese palabra: ")
 pal_inv(pal)
