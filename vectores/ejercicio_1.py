@@ -8,5 +8,5 @@ for n in vectorFact:
     multiplicacion = 1
     for i in range (1,n+1):
         multiplicacion= multiplicacion * i
-    print(multiplicacion)
+    print(f"Factorial de {i}: {multiplicacion}")
 
